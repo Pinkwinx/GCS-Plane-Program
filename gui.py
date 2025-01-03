@@ -1,5 +1,4 @@
 import tkinter as tk
-from tkinter import PhotoImage
 
 window = tk.Tk()
 window.title("AscendOS")
