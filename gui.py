@@ -6,9 +6,6 @@ window.title("AscendOS")
 window.geometry("1000x600")  
 
 #for Battery updates
-top_frame = tk.Frame(window)
-top_frame.pack(side="top", fill="x", padx=10, pady=10)
-
 def update_battery_icon(canvas, percentage):
     canvas.create_rectangle(2, 2, 58, 24, outline="black", width=2)
     canvas.create_rectangle(58, 8, 62, 18, fill="black")
