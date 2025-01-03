@@ -5,7 +5,7 @@ window = tk.Tk()
 window.title("AscendOS")
 window.geometry("1000x600")  
 
-#for Battery and title
+#for Battery updates
 top_frame = tk.Frame(window)
 top_frame.pack(side="top", fill="x", padx=10, pady=10)
 
@@ -16,6 +16,7 @@ def update_battery_icon(canvas, percentage):
     canvas.create_rectangle(2, 2, 2 + fill_width, 24, fill="green")  
     canvas.create_rectangle(2 + fill_width, 2, 58, 24, fill="gray")  
 
+#for battery and title placement
 top_frame = tk.Frame(window)
 top_frame.pack(side="top", fill="x", padx=10, pady=10)
 
